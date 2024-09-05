@@ -9,14 +9,6 @@ on:
     paths-ignore:
       - "**/*.md"
 
-permissions:
-  # deployments permission to deploy GitHub pages website
-  deployments: write
-  # contents permission to update benchmark contents in gh-pages branch
-  contents: write
-  # allow posting comments to pull request
-  pull-requests: write
-
 name: Benchmark
 jobs:
   Compare:
