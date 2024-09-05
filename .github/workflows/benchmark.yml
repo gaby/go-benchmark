@@ -36,4 +36,4 @@ jobs:
           go-version: "${{ matrix.go-version }}"
 
       - name: Run Benchmark
-        run: go test -benchmem -count=5 -bench=.
+        run: go test ./... -bench=. -benchmem -count=5
