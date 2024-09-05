@@ -19,7 +19,7 @@ import (
 	"github.com/oxtoacart/bpool"
 	"github.com/valyala/bytebufferpool"
 
-	"github.com/omgnull/go-benchmark/buffer"
+	"github.com/gaby/go-benchmark/buffer"
 )
 
 type (

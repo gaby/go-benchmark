@@ -3,7 +3,7 @@ package main
 import (
 	"testing"
 
-	"github.com/omgnull/go-benchmark/buffer"
+	"github.com/gaby/go-benchmark/buffer"
 )
 
 func BenchmarkGenericBuf(b *testing.B) {
